@@ -74,7 +74,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </Link>
         
         <header className="mb-8">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
             {post.title}
           </h1>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
@@ -92,7 +92,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </header>
         
         <div 
-          className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-ul:list-disc prose-ul:pl-6 prose-li:my-1 prose-p:my-4 prose-a:text-primary prose-a:underline prose-strong:font-semibold"
+          className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-foreground prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-p:text-muted-foreground prose-ul:list-disc prose-ul:pl-6 prose-li:my-1 prose-li:text-muted-foreground prose-p:my-4 prose-a:text-primary prose-a:underline prose-strong:font-semibold prose-strong:text-foreground"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </div>
