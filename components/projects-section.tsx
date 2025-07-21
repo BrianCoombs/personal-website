@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     id: "1",
     title: "Intern.House",
-    description: "Built a site for matching tech interns at Google, Tesla, Amazon, AMD, Apple, SpaceX, and other companies to rent by the room houses in Austin. Also built rental automation stack for owners. 500+ interns helped across 20+ houses in Austin Texas.",
+    description: "Site for matching tech interns at Google, Tesla, Amazon, AMD, Apple, SpaceX, and other companies to rent by the room houses in Austin. Also built rental automation stack for owners. 500+ interns helped across 20+ houses in Austin Texas.",
     screenshot: "/projects/intern.house.webp",
     link: "https://intern.house/",
     technologies: ["React", "Node.js", "SQL", "GCP", "Twilio", "OpenAI"]
@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     id: "2",
     title: "PickFlick",
-    description: "A group movie swiping app with Clerk authentication using the TMDb API. Swipe through movies with friends and instantly find the perfect film everyone wants to watch.",
+    description: "Group movie swiping app with Clerk authentication using the TMDb API. Swipe through movies with friends and instantly find the perfect film everyone wants to watch.",
     screenshot: "/projects/pickflick.webp",
     link: "https://pickflick.vercel.app/",
     technologies: ["Next.js", "PostgreSQL", "Vercel", "Clerk Auth", "TMDb API"]
