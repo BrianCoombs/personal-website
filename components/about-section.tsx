@@ -1,4 +1,4 @@
-import { MapPin, Building2, Sparkles, Briefcase, GraduationCap } from "lucide-react"
+import { MapPin, Building2, Briefcase, GraduationCap } from "lucide-react"
 
 export function AboutSection() {
   return (
@@ -10,7 +10,7 @@ export function AboutSection() {
         
         <div>
           <p className="text-lg text-muted-foreground mb-6">
-            I&apos;m an AI engineer and entrepreneur with a passion for building products that make people's lives easier. I also enjoy basketball, rock climbing, <a href="https://www.goodreads.com/user/show/51064473-brian-coombs" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">reading fantasy and hard sci-fi</a>, and spent the last 2 years traveling the US <a href="https://www.trustedhousesitters.com/house-and-pet-sitters/united-states/texas/austin/l/3565438/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">dogsitting</a>.
+            I&apos;m an AI engineer and entrepreneur with a passion for building products that make people&apos;s lives easier. I also enjoy basketball, rock climbing, <a href="https://www.goodreads.com/user/show/51064473-brian-coombs" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">reading fantasy and hard sci-fi</a>, and spent the last 2 years traveling the US <a href="https://www.trustedhousesitters.com/house-and-pet-sitters/united-states/texas/austin/l/3565438/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">dogsitting</a>.
           </p>
           
           <div className="mt-8 space-y-6">
