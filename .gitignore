@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ai
+.claude
+.scratchpad
+mcp.json
+CLAUDE.md
