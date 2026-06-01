@@ -16,7 +16,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-sm text-muted-foreground">
-            Last updated: May 28, 2026
+            Last updated: June 1, 2026
           </p>
         </header>
 
@@ -73,10 +73,15 @@ export default function PrivacyPage() {
             for any other purpose.
           </p>
           <p>
-            <strong>Message frequency varies</strong> based on your
-            interaction with us. You can expect to receive messages only in
-            response to your requests or as part of conversations you have
-            initiated.
+            <strong>
+              This is a recurring automated messaging program.
+            </strong>{" "}
+            Our SMS program (&quot;AI Fitness Coach&quot;) delivers
+            personalized strength-training programming and fitness check-ins.
+            Subscribers can expect approximately 1&ndash;2 messages per day,
+            including a scheduled daily workout, a weekly progress digest,
+            and automated replies to messages you send. Message frequency may
+            vary.
           </p>
           <p>
             <strong>Message and data rates may apply.</strong> Standard

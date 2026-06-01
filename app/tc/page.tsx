@@ -16,7 +16,7 @@ export default function TermsAndConditionsPage() {
             Terms and Conditions
           </h1>
           <p className="text-sm text-muted-foreground">
-            Last updated: May 28, 2026
+            Last updated: June 1, 2026
           </p>
         </header>
 
@@ -31,26 +31,39 @@ export default function TermsAndConditionsPage() {
 
           <h2>SMS Program Description</h2>
           <p>
-            By providing your mobile phone number and opting in, you consent
-            to receive text messages from Brian Coombs at the number
-            provided. Messages are sent only in connection with conversations
-            you initiate or services you have explicitly requested.
+            <strong>AI Fitness Coach</strong> is a recurring automated SMS
+            program that delivers personalized strength-training programming
+            and fitness check-ins. By providing your mobile phone number and
+            opting in, you consent to receive automated text messages from
+            Brian Coombs at the number provided, including: a scheduled daily
+            workout (typically morning), a weekly progress digest, and
+            automated replies to messages you send (for example, when you log
+            a completed workout, request the next day&apos;s plan, or update
+            your training maxes).
           </p>
 
           <h2>Opt-In</h2>
           <p>
-            You may opt in by submitting your mobile number through a form on
-            our website or by texting our number directly. You confirm that
-            the mobile number you provide is your own or that you are
-            authorized to consent on behalf of the account holder.
+            You may opt in by texting the keyword <strong>JOIN</strong> or{" "}
+            <strong>START</strong> to our program phone number, or by
+            submitting your mobile number through a form on our website. You
+            confirm that the mobile number you provide is your own or that
+            you are authorized to consent on behalf of the account holder.
+            After opt-in, you will receive a one-time confirmation message
+            describing the program, message frequency, message-and-data-rates
+            notice, and STOP/HELP instructions.
           </p>
 
           <h2>Message Frequency</h2>
           <p>
-            <strong>Message frequency varies</strong> based on your
-            interactions with us. We do not send recurring automated
-            broadcasts; you will generally receive messages only in response
-            to your inquiries.
+            <strong>
+              This is a recurring automated messaging program.
+            </strong>{" "}
+            Subscribers receive approximately 1&ndash;2 messages per day,
+            including a scheduled daily workout, a weekly progress digest
+            (typically Sundays), and automated confirmations in response to
+            messages you send. Message frequency may vary based on the
+            program calendar and your interactions.
           </p>
 
           <h2>Message and Data Rates</h2>
