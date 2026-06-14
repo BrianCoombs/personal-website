@@ -16,7 +16,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-sm text-muted-foreground">
-            Last updated: June 1, 2026
+            Last updated: June 13, 2026
           </p>
         </header>
 
@@ -76,12 +76,14 @@ export default function PrivacyPage() {
             <strong>
               This is a recurring automated messaging program.
             </strong>{" "}
-            Our SMS program (&quot;AI Fitness Coach&quot;) delivers
-            personalized strength-training programming and fitness check-ins.
-            Subscribers can expect approximately 1&ndash;2 messages per day,
-            including a scheduled daily workout, a weekly progress digest,
-            and automated replies to messages you send. Message frequency may
-            vary.
+            Our SMS program (&quot;Gym Buddy&quot;) is an automated
+            workout-partner matching service for members of participating
+            gyms. After you opt in, our backend automatically texts you when
+            a compatible workout partner is found at your gym, sends meetup
+            confirmations and reminders, post-session feedback prompts, and
+            handles command keywords. Message frequency is variable and
+            driven by match availability and your scheduled meetups &mdash;
+            typically a few messages per week, with no fixed daily cadence.
           </p>
           <p>
             <strong>Message and data rates may apply.</strong> Standard

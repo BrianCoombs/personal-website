@@ -16,7 +16,7 @@ export default function TermsAndConditionsPage() {
             Terms and Conditions
           </h1>
           <p className="text-sm text-muted-foreground">
-            Last updated: June 1, 2026
+            Last updated: June 13, 2026
           </p>
         </header>
 
@@ -31,27 +31,33 @@ export default function TermsAndConditionsPage() {
 
           <h2>SMS Program Description</h2>
           <p>
-            <strong>AI Fitness Coach</strong> is a recurring automated SMS
-            program that delivers personalized strength-training programming
-            and fitness check-ins. By providing your mobile phone number and
+            <strong>Gym Buddy</strong> is a recurring automated SMS program
+            that matches members of participating gyms with compatible
+            workout partners. By providing your mobile phone number and
             opting in, you consent to receive automated text messages from
-            Brian Coombs at the number provided, including: a scheduled daily
-            workout (typically morning), a weekly progress digest, and
-            automated replies to messages you send (for example, when you log
-            a completed workout, request the next day&apos;s plan, or update
-            your training maxes).
+            Brian Coombs at the number provided, including: a welcome and
+            consent confirmation, a short onboarding questionnaire (gender,
+            age, experience level, training style, preferred time of day,
+            partner preferences), match proposals when a compatible partner
+            is found at your gym, meetup confirmations and reminders,
+            post-session feedback prompts, and automated replies to command
+            keywords such as MATCH, PAUSE, REPORT, BLOCK, HELP, and STOP.
           </p>
 
           <h2>Opt-In</h2>
           <p>
-            You may opt in by texting the keyword <strong>JOIN</strong> or{" "}
-            <strong>START</strong> to our program phone number, or by
-            submitting your mobile number through a form on our website. You
-            confirm that the mobile number you provide is your own or that
-            you are authorized to consent on behalf of the account holder.
-            After opt-in, you will receive a one-time confirmation message
-            describing the program, message frequency, message-and-data-rates
-            notice, and STOP/HELP instructions.
+            You may opt in by scanning a QR code physically posted at a
+            participating gym, which composes a message with the keyword{" "}
+            <strong>JOIN</strong> to our program phone number. You may also
+            text <strong>JOIN</strong>, <strong>START</strong>,{" "}
+            <strong>YES</strong>, or <strong>AGREE</strong> directly to our
+            program phone number. After your first inbound message we send a
+            welcome that identifies the brand and gym, links these Terms and
+            the Privacy Policy, and asks you to reply <strong>YES</strong>{" "}
+            to confirm consent before any further automated messages are
+            sent. You confirm that the mobile number you provide is your own
+            or that you are authorized to consent on behalf of the account
+            holder.
           </p>
 
           <h2>Message Frequency</h2>
@@ -59,11 +65,12 @@ export default function TermsAndConditionsPage() {
             <strong>
               This is a recurring automated messaging program.
             </strong>{" "}
-            Subscribers receive approximately 1&ndash;2 messages per day,
-            including a scheduled daily workout, a weekly progress digest
-            (typically Sundays), and automated confirmations in response to
-            messages you send. Message frequency may vary based on the
-            program calendar and your interactions.
+            Message frequency is variable and driven by match availability
+            and your scheduled meetups. Most subscribers receive a few
+            messages per week &mdash; a match proposal when a compatible
+            partner is found, meetup reminders the day before a scheduled
+            session, a post-session feedback prompt, and replies to
+            commands you send. There is no fixed daily cadence.
           </p>
 
           <h2>Message and Data Rates</h2>
