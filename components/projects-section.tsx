@@ -33,7 +33,7 @@ const projects: Project[] = [
   {
     id: "4",
     title: "Low Roll",
-    description: "A dice game my friends and I play all the time, hosted here in case we ever forget our dice. Pass the phone around and shake it to roll 13 dice (a d20, d12, d10, two d8s, a d4 and seven d6s). After every roll you have to pick up at least one die and re-roll the rest. Each die you pick up scores how far it landed below its max, so a 20 on the d20 counts as 0. Lowest total wins and highest total loses.",
+    description: "A dice game my friends and I play all the time, hosted here in case we forget our dice. Shake to roll 13 dice and keep at least one each roll. Each kept die scores how far it lands below its max, and the lowest total wins.",
     screenshot: "/projects/dice.webp",
     link: "/dice",
     technologies: ["Three.js", "cannon-es", "Vite", "Web Audio", "Device Motion"]
