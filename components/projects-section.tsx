@@ -29,6 +29,14 @@ const projects: Project[] = [
     screenshot: "/projects/h4h.webp",
     link: "https://foundcom.org/home-for-the-holidays/",
     technologies: ["Next.js", "Node.js", "CosmosDB", "Azure", "B2C Auth"]
+  },
+  {
+    id: "4",
+    title: "Low Roll",
+    description: "Pass-the-phone 3D dice game. Shake your phone to roll 13 polyhedral dice, pick up at least one each roll, and score how far each lands below its max. Lowest total wins; the loser buys the next round.",
+    screenshot: "/projects/dice.webp",
+    link: "/dice",
+    technologies: ["Three.js", "cannon-es", "Vite", "Web Audio", "Device Motion"]
   }
 ]
 

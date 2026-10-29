@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#0b1f1a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="Low Roll: a pass-the-phone dice game. Shake to roll, pick up at least one die each roll, lowest score wins." />
+    <title>Low Roll · Dice</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>" />
+    <script type="module" crossorigin src="/dice/assets/index-DeRiOiQT.js"></script>
+    <link rel="stylesheet" crossorigin href="/dice/assets/index-CjyqkD7Q.css">
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <div id="turnInfo">
+          <div id="playerName">Low Roll</div>
+          <div id="turnSub"></div>
+        </div>
+        <div class="top-actions">
+          <button id="scoresBtn" class="ghost" type="button">Scores</button>
+          <button id="muteBtn" class="ghost icon" type="button" aria-label="Toggle sound">🔊</button>
+        </div>
+      </header>
+
+      <main id="stage">
+        <div id="tags"></div>
+        <div id="hint"></div>
+      </main>
+
+      <footer id="panel">
+        <div id="keptRow">
+          <div id="keptChips"></div>
+          <div id="turnTotal"></div>
+        </div>
+        <button id="actionBtn" class="primary" type="button">Roll</button>
+      </footer>
+    </div>
+
+    <section id="setup" class="overlay">
+      <div class="card">
+        <div class="brand">🎲</div>
+        <h1>Low Roll</h1>
+        <p class="lede">Pick up the dice that land high. Lowest score wins.</p>
+
+        <button id="resumeBtn" class="secondary wide" type="button" hidden></button>
+
+        <h2>Players</h2>
+        <div id="playerList"></div>
+        <button id="addPlayerBtn" class="ghost wide" type="button">+ Add player</button>
+
+        <details class="rules">
+          <summary>How to play</summary>
+          <ul>
+            <li>Everyone gets the same 13 dice: a d20, d12, d10, two d8s, a d4 and seven d6s.</li>
+            <li>Shake your phone to roll (or hold the Roll button and let go).</li>
+            <li>After every roll, pick up <b>at least one</b> die. Tap dice to choose.</li>
+            <li>A picked-up die scores how far it is below its max. A 20 on the d20 scores 0. A 10 on the d20 scores 10.</li>
+            <li>Re-roll whatever's left until every die is picked up. That's your score.</li>
+            <li>Pass the phone. Lowest total wins, highest total loses.</li>
+          </ul>
+        </details>
+
+        <button id="startBtn" class="primary wide" type="button">Start game</button>
+      </div>
+    </section>
+
+    <section id="handoff" class="overlay" hidden>
+      <div class="card">
+        <div class="eyebrow">Turn over</div>
+        <h1 id="handoffTitle"></h1>
+        <div id="handoffChips" class="chips"></div>
+        <button id="handoffBtn" class="primary wide" type="button"></button>
+      </div>
+    </section>
+
+    <section id="results" class="overlay" hidden>
+      <div class="card">
+        <div id="loserBanner"></div>
+        <ol id="ranking"></ol>
+        <button id="rematchBtn" class="primary wide" type="button">Rematch</button>
+        <button id="newPlayersBtn" class="ghost wide" type="button">Change players</button>
+      </div>
+    </section>
+
+    <section id="scores" class="overlay" hidden>
+      <div class="card">
+        <h1>Scores</h1>
+        <ol id="scoreList"></ol>
+        <button id="closeScoresBtn" class="primary wide" type="button">Back to the game</button>
+        <button id="quitBtn" class="ghost danger wide" type="button">End game</button>
+      </div>
+    </section>
+
+  </body>
+</html>

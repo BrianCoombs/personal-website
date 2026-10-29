@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
   },
   poweredByHeader: false,
   compress: true,
+  // Static games built elsewhere and copied into public/ (e.g. fun-projects/dice).
+  async rewrites() {
+    return [{ source: '/dice', destination: '/dice/index.html' }];
+  },
 };
 
 export default nextConfig;
